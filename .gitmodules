@@ -1,0 +1,3 @@
+[submodule "minilibx"]
+	path = minilibx
+	url = git@github.com:dannywillems/minilibx-mac-osx.git
