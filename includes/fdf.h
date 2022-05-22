@@ -6,14 +6,14 @@
 /*   By: min-kang <minguk.gaang@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/17 16:03:31 by min-kang          #+#    #+#             */
-/*   Updated: 2022/03/11 11:28:46 by min-kang         ###   ########.fr       */
+/*   Updated: 2022/05/22 13:37:03 by min-kang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FDF_H
 # define FDF_H
 
-# include "../libft/libft.h"
+# include "libft.h"
 # include <mlx.h>
 # include <math.h>
 # include <sys/stat.h>
@@ -24,6 +24,7 @@
 # include <errno.h>
 # include <string.h>
 # include <unistd.h>
+# include <stdbool.h>
 
 typedef struct s_3d{
 	float	x;
